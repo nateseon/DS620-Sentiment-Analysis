@@ -1,10 +1,10 @@
-# 📊 Social Media Sentiment Analysis Dashboard
+# Social Media Sentiment Analysis Dashboard
 
 This project is a Streamlit web application that performs sentiment analysis on social media text. It allows users to train machine learning models (Logistic Regression and Naive Bayes) on a labeled dataset, evaluate their performance, and then use the trained models for both live predictions and batch processing of new, unlabeled posts.
 
 The entire application is self-contained in `app.py`.
 
-## ✨ Features
+## Features
 
 - **Interactive Dashboard**: A user-friendly web interface built with Streamlit.
 - **Data Preprocessing**:
@@ -24,7 +24,7 @@ The entire application is self-contained in `app.py`.
     - Runs sentiment prediction on all posts.
     - Provides a download button to save the results as a new CSV file.
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 To run this application locally, follow these steps.
 
@@ -70,7 +70,7 @@ Then, install the packages using pip:
 pip install -r requirements.txt
 ```
 
-## 📁 Required Data Files
+## Required Data Files
 
 Place the following two CSV files in the root directory of the project. The application allows you to specify their paths in the UI sidebar.
 
@@ -82,7 +82,7 @@ Place the following two CSV files in the root directory of the project. The appl
     - This file contains the unlabeled posts to be analyzed.
     - **Required Columns**: `User ID`, `Username`, `Platform`, `Post ID`, `Post Text`.
 
-## 🚀 How to Run the Application
+## How to Run the Application
 
 1.  Make sure your terminal is in the project's root directory and your virtual environment is activated.
 
@@ -94,7 +94,7 @@ Place the following two CSV files in the root directory of the project. The appl
 
 3.  Your web browser should automatically open a new tab with the application running. If not, navigate to the local URL displayed in your terminal (usually `http://localhost:8501`).
 
-## 📋 How to Use the Dashboard
+## How to Use the Dashboard
 
 1.  **Configure Settings**: Use the sidebar on the left to specify the paths to your data files and adjust the test set size.
 
